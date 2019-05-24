@@ -90,7 +90,9 @@ img {
     justify-content: space-between;
 }
 
-.header a {
+.mail,
+.logo,
+.phone {
     color: #fff;
     font-family: 'Myriad Pro';
     font-size: 24px;
@@ -100,6 +102,17 @@ img {
 
 .logo {
     font-family: 'Raleway';
+}
+
+.mail,
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.mail__icon,
+.phone__icon {
+    margin-right: 9px;
 }
 
 .offer {
@@ -374,4 +387,128 @@ img {
 
 .cost__text--mb {
     margin-bottom: 20px;
+}
+
+/******************* about *******************/
+
+.about {
+    margin-bottom: 150px;
+}
+
+.about__title {
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about__img {
+    width: 547px;
+    height: 345px;
+}
+
+.about__desc {
+    width: 547px;
+    height: 322px;
+}
+
+.about__text {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.45px;
+}
+
+.about__text--first {
+    margin-bottom: 50px;
+}
+
+/******************* footer *******************/
+
+.footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: url('../img/footer-bg.jpg') no-repeat center center;
+    background-size: cover;
+    box-shadow: 0 0 16px 12px rgba(0, 0, 0, 0.18);
+    position: relative;
+}
+
+.footer__container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer__content {
+    width: 33.3%;
+}
+
+.footer__content--middle {
+    padding-left: 63px;
+}
+
+.footer__logo {
+    margin-bottom: 25px;
+}
+
+.footer__name,
+.footer__address {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    margin-bottom: 15px;
+    font-style: normal;
+}
+
+.footer__menu {
+    background: transparent;
+    box-shadow: none;
+}
+
+.footer__menu .menu__list {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin-bottom: 45px;
+}
+
+.footer__menu .menu__item {
+    margin-bottom: 25px;
+}
+
+.footer__menu .menu__item .menu__link {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.footer__menu .menu__item .menu__link:hover {
+    color: #ffc200;
+}
+
+.footer__menu .menu__item .menu__link:not(:hover) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.footer__copy {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+}
+
+.footer__content--right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer__phone {
+    margin-bottom: 37px;
 }

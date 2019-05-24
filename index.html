@@ -13,10 +13,10 @@
 </head>
 <body>
     <div class="wrapper">
-        <section class="hero">
+        <section class="hero" id="hero">
             <header class="header">
                 <div class="container header__container">
-                    <a class="logo header__logo">
+                    <a href="#" class="logo header__logo">
                         Service Direct System
                     </a>
                     <a href="mailto:info@mail.ru" class="mail heder__mail">
@@ -45,22 +45,22 @@
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href="#" class="menu__link">
+                        <a href="#hero" class="menu__link">
                             Главная
                         </a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu__link">
+                        <a href="#services" class="menu__link">
                             Услуги
                         </a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu__link">
+                        <a href="#about" class="menu__link">
                             О нас
                         </a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu__link">
+                        <a href="#footer" class="menu__link">
                             Контакты
                         </a>
                     </li>
@@ -87,7 +87,7 @@
                 </div>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <div class="container services__container">
                 <h2 class="title-2 services__title">
                     Наши услуги
@@ -402,6 +402,80 @@
                 </ul>
             </div>
         </section>
+        <section class="about" id="about">
+            <div class="container about__container">
+                <h2 class="title-2 about__title">
+                    О нас
+                </h2>
+                <div class="about__content">
+                    <div class="about__img">
+                        <img src="img/About.png" alt="foto">
+                    </div>
+                    <div class="about__desc">
+                        <p class="about__text about__text--first">
+                            Компания Service Direct System была создана в 2006 году и изначально позиционировала себя как узкоспециализированного разработчика софта для рынка такси. Однако с годами мы находили для наших программ все новые и новые применения. 
+                        </p>
+                        <p class="about__text">
+                            За многие годы деятельности нашей фирмы, у нас сложился и успешно работает дружный коллектив высокопрофессиональных, опытных программистов. Мы готовы решать многоуровневые задачи любой сложности 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="footer">
+            <div class="container footer__container">
+                <div class="footer__content">
+                    <a href="#" class="logo footer__logo">
+                        Service Direct System
+                    </a>
+                    <p class="footer__name">
+                        ООО «Service Direct System»
+                    </p>
+                    <address class="footer__address">
+                        г. Москва, ул.. Никитская, д. 10
+                    </address>
+                </div>
+                <div class="footer__content footer__content--middle">
+                    <nav class="menu footer__menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#hero" class="menu__link">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#services" class="menu__link">
+                                    Услуги
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#about" class="menu__link">
+                                    О нас
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#footer" class="menu__link">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <p class="footer__copy">
+                        &#xa9; 2019 / Все права защищены
+                    </p>
+                </div>
+                <div class="footer__content footer__content--right">
+                    <a href="tel:+79876543210" class="phone footer__phone">
+                        <img src="img/call.png" alt="phone" class="phone__icon">
+                        <span>+7 (987) 654-32-10</span>
+                    </a>
+                    <a href="mailto:info@mail.ru" class="mail footer__mail">
+                        <img src="img/letter.png" alt="letter" class="mail__icon">
+                        <span>info@mail.ru</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
     </div>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/jquery.arcticmodal-0.3.min.js"></script>
