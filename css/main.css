@@ -1,0 +1,319 @@
+/******************* spesification *******************/
+
+body {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background: #fff;
+    padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+    cursor: pointer;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+	font-weight: 500;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.title-2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.title-2--white {
+	color: #fff;
+}
+
+/******************* hero *******************/
+
+.hero {
+    margin-bottom: 108px;
+    background-color: #fdfdfd;
+}
+
+.header {
+    box-shadow: 0 2px 56px 4px rgba(24, 5, 95, 0.29);
+    background-color: #010124;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    color: #fff;
+    font-family: 'Myriad Pro';
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+
+.logo {
+    font-family: 'Raleway';
+}
+
+.offer {
+    padding-top: 186px;
+    padding-bottom: 236px;
+    background: url('../img/offer-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.offer__subtitle {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    margin-bottom: 25px;
+}
+
+.title-1 {
+    position: relative;
+    text-transform: uppercase;
+    color: #001031;
+    width: 580px;
+    font-weight: 400;
+}
+
+.title-1__automation {
+    width: 538px;
+    font-family: 'Myriad Pro Black Cond';
+    font-size: 72px;
+    line-height: 81px;
+    letter-spacing: 3.6px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 27px;
+}
+
+.title-1__busines {
+    width: 404px;
+    color: #fff;
+    font-family: 'Myriad Pro Cond';
+    font-size: 60px;
+    line-height: 81px;
+    text-align: center;
+    background-color: #001031;
+    box-shadow: 0 7px 18px 3px rgba(0, 0, 0, 0.32);
+    margin-left: auto;
+}
+
+.title-1:after {
+    content: "";
+    display: block;
+    width: 600px;
+    height: 500px;
+    background: url('../img/land.png') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: -129px;
+    right: -625px;
+}
+
+.menu {
+    box-shadow: 0 2px 7px 1px rgba(24, 5, 95, 0.42);
+    background-color: #1a1448;
+}
+
+.menu__list {
+    width: 690px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 0;
+    margin: 0 auto;
+}
+
+.menu__link {
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.menu__link:hover,
+.header a:hover {
+    color: #ffc200;
+}
+
+.menu__link:not(:hover),
+.header a:not(:hover) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+/******************* why *******************/
+
+.why {
+    box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.13);
+}
+
+.why__container {
+    position: relative;
+}
+
+.why__container:before {
+    content: "";
+    display: block;
+    width: 800px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -400px;
+    background: url('../img/why.png') no-repeat right center;
+    background-size: cover;
+}
+
+.why__content {
+    width: 640px;
+    position: relative;
+    padding-top: 130px;
+    padding-bottom: 172px;
+    margin-left: 540px;
+}
+
+.why__title {
+    margin-bottom: 42px;
+}
+
+.why__text {
+    margin-bottom: 30px;
+}
+
+/******************* services *******************/
+
+.services {
+    padding-top: 165px;
+    padding-bottom: 200px;
+}
+
+.services__title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.services__list {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.services__item {
+    width: 263px;
+    height: 322px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.34);
+}
+
+.services__text {
+    height: 32%;
+    color: #ffffff;
+    line-height: 22px;
+    background: #19176b;
+    text-align: center;
+    padding: 17px 3px;
+}
+
+.services__text--3 {
+    padding: 28px 40px;
+}
+
+.services__more {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.45px;
+    text-align: center;
+}
+
+/******************* description *******************/
+
+.complex__container {
+    padding-bottom: 80px;
+}
+
+.complex__title {
+    width: 1020px;
+    margin: 0 auto;
+    letter-spacing: 0.9px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.manager__container {
+    position: relative;
+}
+
+.manager__container:after {
+    content: "";
+    display: block;
+    width: 800px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('../img/nout-p.png') no-repeat right center;
+    background-size: cover;
+}
