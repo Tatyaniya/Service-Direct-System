@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -316,4 +316,62 @@ img {
     right: 0;
     background: url('../img/nout-p.png') no-repeat right center;
     background-size: cover;
+}
+
+/******************* hero *******************/
+
+/******************* hero *******************/
+
+/******************* hero *******************/
+
+/******************* hero *******************/
+
+/******************* hero *******************/
+
+/******************* hero *******************/
+
+/******************* hero *******************/
+
+/******************* cost *******************/
+
+.cost {
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+
+.cost__title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.cost__list {
+    display: flex;
+    justify-content: center;
+    margin-right: -30px;
+}
+
+.cost__item {
+    width: 362px;
+    height: 205px;
+    box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 48px 46px;
+    margin-right: 30px;
+}
+
+.cost__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.45px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cost__text--bold {
+    font-weight: 500;
+}
+
+.cost__text--mb {
+    margin-bottom: 20px;
 }
