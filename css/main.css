@@ -215,13 +215,14 @@ img {
 
 .why {
     box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.13);
+    background: url('../img/why.png') no-repeat left center;
 }
 
 .why__container {
     position: relative;
 }
 
-.why__container:before {
+/* .why__container:before {
     content: "";
     display: block;
     width: 800px;
@@ -231,13 +232,13 @@ img {
     left: -400px;
     background: url('../img/why.png') no-repeat right center;
     background-size: cover;
-}
+} */
 
 .why__content {
     width: 640px;
     position: relative;
     padding-top: 130px;
-    padding-bottom: 172px;
+    padding-bottom: 130px;
     margin-left: 540px;
 }
 
@@ -253,7 +254,7 @@ img {
 
 .services {
     padding-top: 165px;
-    padding-bottom: 200px;
+    padding-bottom: 120px;
 }
 
 .services__title {
@@ -315,35 +316,376 @@ img {
     text-align: center;
 }
 
+.more {
+    width: 263px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.39);
+    border-radius: 30px;
+    background-color: #ffc600;
+    background-image: linear-gradient(-4deg, #ffae00 0%, #ffae00 1%, #f8eb14 100%);
+}
+
+/******************* manager *******************/
+
+.manager {
+    background: url('../img/program-bg.jpg') no-repeat center center / cover;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.19);
+}
+
 .manager__container {
     position: relative;
+    padding-top: 146px;
+    padding-bottom: 130px;
 }
 
 .manager__container:after {
     content: "";
     display: block;
-    width: 800px;
-    height: 100%;
+    width: 860px;
+    height: 500px;
     position: absolute;
-    top: 0;
-    right: 0;
-    background: url('../img/nout-p.png') no-repeat right center;
-    background-size: cover;
+    top: 60px;
+    right: -90px;
+    background: url('../img/nout-p.png') no-repeat center center;
+    background-size: contain;
 }
 
-/******************* hero *******************/
+.manager__title {
+    margin-bottom: 45px;
+    position: relative;
+}
 
-/******************* hero *******************/
+.manager__title:before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 121px;
+    position: absolute;
+    top: -146px;
+    left: 3px;
+    background: #ffc700;
+}
 
-/******************* hero *******************/
+.manager__text {
+    width: 512px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 37px;
+}
 
-/******************* hero *******************/
+/******************* functionality *******************/
 
-/******************* hero *******************/
+.functionality {
+    box-shadow: 0 0 24px 5px rgba(43, 43, 43, 0.55);
+    background: url('../img/f-bg.jpg') no-repeat center center / cover;
+}
 
-/******************* hero *******************/
+.functionality__container {
+    position: relative;
+    padding-top: 173px;
+    padding-bottom: 164px;
+}
 
-/******************* hero *******************/
+.functionality__container:before {
+    content: "";
+    display: block;
+    width: 860px;
+    height: 500px;
+    position: absolute;
+    top: 72px;
+    left: -115px;
+    background: url('../img/nout-f.png') no-repeat center center;
+    background-size: contain;
+}
+
+.functionality__content {
+    width: 470px;
+    margin-left: auto;
+}
+
+.functionality__title {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.functionality__title:before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 149px;
+    position: absolute;
+    top: -173px;
+    left: 3px;
+    background: #ffc700;
+}
+
+.functionality__text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+/******************* mobile *******************/
+
+.mobile {
+    background: url('../img/mobile-bg.jpg') no-repeat center center / cover;
+    position: relative;
+    z-index: -1;
+}
+
+.mobile__container {
+    padding-top: 75px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.mobile__content {
+    width: 510px;
+    margin-right: 80px;
+    padding-top: 80px;
+}
+
+.mobile__title {
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.mobile__title:before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 134px;
+    position: absolute;
+    top: -155px;
+    left: 3px;
+    background: #ffc700;
+}
+
+.mobile__text {
+    width: 512px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 37px;
+}
+
+.mobile__imgs {
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/******************* agent *******************/
+
+.agent {
+    box-shadow: 0 0 24px 5px rgba(43, 43, 43, 0.55);
+    background: url('../img/cmc-bg.jpg') no-repeat center center / cover;
+}
+
+.agent__container {
+    position: relative;
+    padding-top: 106px;
+    display: flex;
+}
+
+.agent__img {
+    width: 618px;
+    margin-left: -33px;
+}
+
+.agent__content {
+    width: 552px;
+    padding-top: 42px;
+}
+
+.agent__title {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.agent__title:before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 122px;
+    position: absolute;
+    bottom: 50px;
+    left: 3px;
+    background: #ffc700;
+}
+
+.agent__text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+/******************* exchange *******************/
+
+.exchange {
+    background: url('../img/ex-bg.jpg') no-repeat center center / cover;
+}
+
+.exchange__container {
+    padding-top: 106px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.exchange__content {
+    width: 456px;
+    margin-right: 120px;
+    padding-top: 85px;
+}
+
+.exchange__title {
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.exchange__title:before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 164px;
+    position: absolute;
+    bottom: 51px;
+    left: 3px;
+    background: #ffc700;
+}
+
+.exchange__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 37px;
+}
+
+.exchange__img {
+    width: 525px;
+}
+
+/******************* marketing *******************/
+
+.marketing {
+    box-shadow: 0 0 24px 5px rgba(43, 43, 43, 0.55);
+    background: url('../img/m-bg.jpg') no-repeat center center / cover;
+}
+
+.marketing__container {
+    position: relative;
+    padding-top: 110px;
+    padding-bottom: 70px;
+    display: flex;
+}
+
+.marketing__img {
+    width: 618px;
+}
+
+.marketing__content {
+    width: 552px;
+    padding-top: 68px;
+}
+
+.marketing__title {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.marketing__title:before {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 154px;
+    position: absolute;
+    bottom: 50px;
+    left: 3px;
+    background: #ffc700;
+}
+
+.marketing__text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+/******************* activity *******************/
+
+.activity {
+    box-shadow: 0 0 41px 5px rgba(0, 0, 0, 0.22);
+    background: url('../img/ac-bg.jpg') no-repeat center center / cover;
+}
+
+.activity__container {
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+
+.activity__title {
+    text-align: center;margin-bottom: 36px;
+    margin-bottom: 36px;
+}
+
+.activity__desc {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.45px;
+}
+
+.activity__content {
+    margin-bottom: 60px;
+}
+
+.activity__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.activity__item {
+    width: 263px;
+    height: 195px;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 32px;
+}
+
+.activity__icon {
+    width: 100%;
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+
+.activity__text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+}
 
 /******************* cost *******************/
 
