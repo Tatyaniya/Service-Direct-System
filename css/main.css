@@ -458,8 +458,6 @@ img {
 
 .mobile {
     background: url('../img/mobile-bg.jpg') no-repeat center center / cover;
-    position: relative;
-    z-index: -1;
 }
 
 .mobile__container {
@@ -509,6 +507,8 @@ img {
 .agent {
     box-shadow: 0 0 24px 5px rgba(43, 43, 43, 0.55);
     background: url('../img/cmc-bg.jpg') no-repeat center center / cover;
+    position: relative;
+    z-index: 1;
 }
 
 .agent__container {
