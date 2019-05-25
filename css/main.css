@@ -329,6 +329,28 @@ img {
     background-image: linear-gradient(-4deg, #ffae00 0%, #ffae00 1%, #f8eb14 100%);
 }
 
+.more:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    font-size: 19px;
+}
+
+.more:not(:hover) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
 /******************* manager *******************/
 
 .manager {
@@ -853,4 +875,18 @@ img {
 
 .footer__phone {
     margin-bottom: 37px;
+}
+
+.footer__phone:hover,
+.footer__mail:hover {
+    color: #ffc200;
+}
+
+.footer__phone:not(:hover),
+.footer__mail:not(:hover) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
