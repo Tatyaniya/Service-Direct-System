@@ -104,6 +104,10 @@ img {
     font-family: 'Raleway';
 }
 
+.logo:hover {
+    color: #fff;
+}
+
 .mail,
 .phone {
     display: flex;
@@ -198,12 +202,14 @@ img {
 }
 
 .menu__link:hover,
-.header a:hover {
+.mail:hover,
+.phone:hover {
     color: #ffc200;
 }
 
 .menu__link:not(:hover),
-.header a:not(:hover) {
+.mail:not(:hover),
+.phone:not(:hover) {
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -875,18 +881,4 @@ img {
 
 .footer__phone {
     margin-bottom: 37px;
-}
-
-.footer__phone:hover,
-.footer__mail:hover {
-    color: #ffc200;
-}
-
-.footer__phone:not(:hover),
-.footer__mail:not(:hover) {
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
 }
