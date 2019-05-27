@@ -327,16 +327,17 @@
     .title-1__automation {
         width: 100%;
         font-size: 37px;
+        line-height: 47px;
     }
     .title-1__busines {
         width: 80%;
         font-size: 32px;
+        line-height: 46px;
     }
     .title-1:after {
         width: 327px;
-        top: 95px;
+        top: 27px;
     }
-
     .why__container {
         padding-bottom: 50px;
     }
@@ -403,5 +404,8 @@
     }
     .modal4 {
         padding-bottom: 0;
+    }
+    .modal5-2__text {
+        width: 100%;
     }
 }
