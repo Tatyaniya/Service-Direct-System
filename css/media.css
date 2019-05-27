@@ -1,0 +1,244 @@
+@media screen and (max-width: 1920px) {
+    .why {
+        background-image: none;
+    }
+        .why__container:before {
+        content: "";
+        display: block;
+        width: 800px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: -387px;
+        background: url('../img/why.png') no-repeat right center;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 976px;
+    }
+    .title-1 {
+        width: 538px;
+    }
+    .title-1:after {
+        width: 500px;
+        right: -513px;
+    }
+    .why__content {
+        margin-left: 345px;
+    }
+    .why__container:before {
+        left: -467px;
+    }
+    .services__list {
+        flex-wrap: wrap;
+    }
+    .services__item {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .manager__container:after {
+        width: 640px;
+        right: -78px;
+    }
+    .functionality__container:before {
+        width: 700px;
+    }
+    .mobile__content {
+        margin-right: 0;
+    }
+    .mobile__imgs {
+        width: 466px;
+    }
+    .agent__img {
+        width: 400px;
+        margin-top: 180px;
+    }
+    .exchange__content {
+        margin-right: 20px;
+    }
+    .marketing__img {
+        width: 466px;
+        margin-right: 20px;
+    }
+    .marketing__title:before {
+        bottom: 48px;
+    }
+    .activity__list {
+        justify-content: space-around;
+    }
+    .cost__list {
+        flex-wrap: wrap;
+    }
+    .cost__item {
+        margin-bottom: 30px;
+    }
+    .about__content {
+        flex-direction: column;
+
+    }
+    .about__img {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 40px;
+    }
+    .footer__container {
+        justify-content: space-around;
+    }
+    .footer__content {
+        width: 30%;
+    }
+    .modal {
+        width: 96%;
+        margin: 0 auto;
+    }
+    .modal1 .modal__desc {
+        width: 53%;
+        margin-right: 20px;
+    }
+    .modal2__desc,
+    .modal3__desc,
+    .modal5__desc,
+    .modal6__desc {
+        width: 63%;
+        margin-right: 15px;
+    }
+    .modal5__text,
+    .modal6__text {
+        width: 100%;
+    }
+    .modal4__desc {
+        width: 78%;
+        margin-right: 15px;
+        
+    }
+    .modal4__img {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 742px;
+    }
+    .offer {
+        padding-top: 155px;
+        padding-bottom: 480px;
+    }
+    .title-1 {
+        width: 100%;
+    }
+    .offer__subtitle {
+        text-align: center;
+    }
+    .title-1__automation,
+    .title-1__busines {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title-1:after {
+        left: 50%;
+        top: 155px;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    .why__container {
+        padding-bottom: 578px;
+    }
+    .why__container:before {
+        top: 272px;
+        left: -125px;
+    }
+    .why__content {
+        margin-left: 0;
+        width: 100%;
+    }
+    .complex__title {
+        width: 100%;
+    }
+    .manager__container {
+        padding-bottom: 490px;
+    }
+    .manager__container:after {
+        top: 450px;
+        left: 0;
+    }
+    .functionality__container {
+        padding-bottom: 530px;
+    }
+    .functionality__container:before {
+        top: 440px;
+        left: 0;
+    }
+    .functionality__content {
+        margin-left: 0;
+    }
+    .mobile__container {
+        flex-direction: column;
+    }
+    .mobile__content,
+    .exchange__content {
+        margin-bottom: 40px;
+    }
+    .agent__container,
+    .exchange__container,
+    .marketing__container {
+        flex-direction: column;
+    }
+    .agent__img,
+    .marketing__img {
+        order: 1;
+        margin-top: 42px;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer__content {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .footer__content--middle {
+        padding-left: 0;
+        margin-bottom: 60px;
+    }
+    .footer__menu .menu__list {
+        align-items: center;
+    }
+    .footer__content--right {
+        align-items: center;
+    }
+    .modal__content {
+        flex-direction: column;
+    }
+    .modal .modal__desc,
+    .modal2__desc,
+    .modal3__desc,
+    .modal4__desc,
+    .modal5__desc,
+    .modal6__desc {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .modal__specification {
+        width: 92%;
+    }
+    .modal1__img,
+    .modal2__img,
+    .modal3__img,
+    .modal4__img,
+    .modal5__img,
+    .modal6__img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+}

@@ -173,7 +173,7 @@ img {
     width: 600px;
     height: 500px;
     background: url('../img/land.png') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     position: absolute;
     top: -129px;
     right: -625px;
@@ -209,7 +209,7 @@ img {
 
 .menu__link:not(:hover),
 .mail:not(:hover),
-.phone:not(:hover) {
+.phone:not(:hover) { 
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -227,18 +227,6 @@ img {
 .why__container {
     position: relative;
 }
-
-/* .why__container:before {
-    content: "";
-    display: block;
-    width: 800px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: -400px;
-    background: url('../img/why.png') no-repeat right center;
-    background-size: cover;
-} */
 
 .why__content {
     width: 640px;
@@ -269,14 +257,20 @@ img {
 }
 
 .services__list {
-    width: 1140px;
-    margin: 0 auto;
+    width: 100%;
+    padding-left: 10px;
+    page-break-inside: 10px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 45px;
 }
 
 .services__item {
+    display: flex;
+    justify-content: center;
+}
+
+.services__contant {
     width: 263px;
     height: 322px;
     border-radius: 5px;
@@ -735,7 +729,6 @@ img {
 
 .cost__item {
     width: 362px;
-    height: 205px;
     box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     padding: 48px 46px;
@@ -934,6 +927,10 @@ img {
     margin-bottom: 5px;     
 }
 
+.modal__list {
+    margin-bottom: 10px;
+}
+
 .modal__item {
     display: flex;
     margin-bottom: 5px;
@@ -1009,7 +1006,6 @@ img {
     width: 380px;
 }
 
-
 .modal6__text {
     width: 542px;
     margin-bottom: 12px;
@@ -1021,9 +1017,4 @@ img {
 
 .modal6__img {
     width: 400px;
-}
-
-
-.wrapper {
-    padding-bottom: 300px;
 }
