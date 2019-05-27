@@ -237,8 +237,171 @@
     .modal5__img,
     .modal6__img {
         width: 100%;
-        display: flex;
-        justify-content: center;
         margin-top: 0;
+    }
+    .modal1__img img,
+    .modal2__img img,
+    .modal3__img img,
+    .modal4__img img,
+    .modal5__img img,
+    .modal6__img img {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 560px;
+    }
+    .header {
+        padding-top: 50px;
+        padding-bottom: 12px;
+    }
+    .header__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header a {
+        margin-bottom: 40px;
+    }
+    .menu__list {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .menu__item {
+        margin-bottom: 40px;
+    }
+    .why__title,
+    .why__desc {
+        text-align: center;
+    }
+    .why__container {
+        padding-bottom: 543px;
+    }
+    .why__container:before {
+        top: 290px;
+        left: -257px;
+    }
+    .manager__container:after,
+    .functionality__container:before {
+        width: 640px;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    .mobile__imgs,
+    .agent__img,
+    .modal__text--2  {
+        width: 100%;
+    }
+    .exchange__img,
+    .marketing__img {
+        width: 100%;
+    }
+    .exchange__img img,
+    .marketing__img img {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 300px;
+    }
+    .header {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    .header a {
+        margin-bottom: 25px;
+    }
+    .offer {
+        padding-top: 75px;
+        padding-bottom: 345px;
+    }
+    .title-1__automation {
+        width: 100%;
+        font-size: 37px;
+    }
+    .title-1__busines {
+        width: 80%;
+        font-size: 32px;
+    }
+    .title-1:after {
+        width: 327px;
+        top: 95px;
+    }
+
+    .why__container {
+        padding-bottom: 50px;
+    }
+    .why__container:before {
+        display: none;
+    }
+    .services__item {
+        width: 100%;
+    }
+    .title-2 {
+        font-size: 27px;
+    }
+    .manager__content,
+    .functionality__content,
+    .mobile__content,
+    .agent__content,
+    .exchange__content,
+    .marketing__content,
+    .manager__text,
+    .mobile__text {
+        width: 100%;
+        text-align: center;
+    }
+    .manager__container:after,
+    .functionality__container:before {
+        width: 100%;
+    }
+    .functionality__container:before {
+        top: 385px;
+    }
+    .more {
+        margin: 0 auto;
+    }
+    .manager__container,
+    .functionality__container {
+        padding-bottom: 291px;
+    }
+    .mobile__title {
+        font-size: 25px;
+    }
+    .agent__title:before {
+        bottom: 86px;
+    }
+    .exchange__container {
+        padding-top: 70px;
+    }
+    .marketing__container {
+        padding-top: 75px;
+    }
+    .marketing__title:before {
+        bottom: 69px;
+        height: 134px;
+    }
+    .about__img {
+        display: block;
+        height: auto;
+    }
+    .about__desc {
+        width: 100%;
+        height: auto;
+    }
+    .modal {
+        padding: 55px 15px 30px;
+    }
+    .modal4 {
+        padding-bottom: 0;
     }
 }

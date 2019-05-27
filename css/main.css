@@ -65,6 +65,7 @@ img {
 .title-2 {
     font-size: 36px;
     font-weight: 500;
+    line-height: 30px;
 }
 
 .title-2--white {
@@ -755,7 +756,7 @@ img {
 /******************* about *******************/
 
 .about {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 }
 
 .about__title {
